@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE8241D620C0D41C0065C6BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8241D520C0D41C0065C6BE /* AppDelegate.swift */; };
+		EE8241D820C0D41C0065C6BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8241D720C0D41C0065C6BE /* ViewController.swift */; };
+		EE8241DB20C0D41C0065C6BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8241D920C0D41C0065C6BE /* Main.storyboard */; };
+		EE8241DD20C0D41C0065C6BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8241DC20C0D41C0065C6BE /* Assets.xcassets */; };
+		EE8241E020C0D41C0065C6BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8241DE20C0D41C0065C6BE /* LaunchScreen.storyboard */; };
+		EE8241EB20C0D41D0065C6BE /* puzzlesanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8241EA20C0D41D0065C6BE /* puzzlesanTests.swift */; };
+		EE8241F620C0D41D0065C6BE /* puzzlesanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8241F520C0D41D0065C6BE /* puzzlesanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE8241E720C0D41D0065C6BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE8241CA20C0D41C0065C6BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE8241D120C0D41C0065C6BE;
+			remoteInfo = puzzlesan;
+		};
+		EE8241F220C0D41D0065C6BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE8241CA20C0D41C0065C6BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE8241D120C0D41C0065C6BE;
+			remoteInfo = puzzlesan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE8241D220C0D41C0065C6BE /* puzzlesan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = puzzlesan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8241D520C0D41C0065C6BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE8241D720C0D41C0065C6BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE8241DA20C0D41C0065C6BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE8241DC20C0D41C0065C6BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE8241DF20C0D41C0065C6BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE8241E120C0D41C0065C6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8241E620C0D41D0065C6BE /* puzzlesanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = puzzlesanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8241EA20C0D41D0065C6BE /* puzzlesanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = puzzlesanTests.swift; sourceTree = "<group>"; };
+		EE8241EC20C0D41D0065C6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8241F120C0D41D0065C6BE /* puzzlesanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = puzzlesanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8241F520C0D41D0065C6BE /* puzzlesanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = puzzlesanUITests.swift; sourceTree = "<group>"; };
+		EE8241F720C0D41D0065C6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE8241CF20C0D41C0065C6BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8241E320C0D41D0065C6BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8241EE20C0D41D0065C6BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE8241C920C0D41C0065C6BE = {
+			isa = PBXGroup;
+			children = (
+				EE8241D420C0D41C0065C6BE /* puzzlesan */,
+				EE8241E920C0D41D0065C6BE /* puzzlesanTests */,
+				EE8241F420C0D41D0065C6BE /* puzzlesanUITests */,
+				EE8241D320C0D41C0065C6BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE8241D320C0D41C0065C6BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE8241D220C0D41C0065C6BE /* puzzlesan.app */,
+				EE8241E620C0D41D0065C6BE /* puzzlesanTests.xctest */,
+				EE8241F120C0D41D0065C6BE /* puzzlesanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE8241D420C0D41C0065C6BE /* puzzlesan */ = {
+			isa = PBXGroup;
+			children = (
+				EE8241D520C0D41C0065C6BE /* AppDelegate.swift */,
+				EE8241D720C0D41C0065C6BE /* ViewController.swift */,
+				EE8241D920C0D41C0065C6BE /* Main.storyboard */,
+				EE8241DC20C0D41C0065C6BE /* Assets.xcassets */,
+				EE8241DE20C0D41C0065C6BE /* LaunchScreen.storyboard */,
+				EE8241E120C0D41C0065C6BE /* Info.plist */,
+			);
+			path = puzzlesan;
+			sourceTree = "<group>";
+		};
+		EE8241E920C0D41D0065C6BE /* puzzlesanTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE8241EA20C0D41D0065C6BE /* puzzlesanTests.swift */,
+				EE8241EC20C0D41D0065C6BE /* Info.plist */,
+			);
+			path = puzzlesanTests;
+			sourceTree = "<group>";
+		};
+		EE8241F420C0D41D0065C6BE /* puzzlesanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE8241F520C0D41D0065C6BE /* puzzlesanUITests.swift */,
+				EE8241F720C0D41D0065C6BE /* Info.plist */,
+			);
+			path = puzzlesanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE8241D120C0D41C0065C6BE /* puzzlesan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8241FA20C0D41D0065C6BE /* Build configuration list for PBXNativeTarget "puzzlesan" */;
+			buildPhases = (
+				EE8241CE20C0D41C0065C6BE /* Sources */,
+				EE8241CF20C0D41C0065C6BE /* Frameworks */,
+				EE8241D020C0D41C0065C6BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = puzzlesan;
+			productName = puzzlesan;
+			productReference = EE8241D220C0D41C0065C6BE /* puzzlesan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE8241E520C0D41D0065C6BE /* puzzlesanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8241FD20C0D41D0065C6BE /* Build configuration list for PBXNativeTarget "puzzlesanTests" */;
+			buildPhases = (
+				EE8241E220C0D41D0065C6BE /* Sources */,
+				EE8241E320C0D41D0065C6BE /* Frameworks */,
+				EE8241E420C0D41D0065C6BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE8241E820C0D41D0065C6BE /* PBXTargetDependency */,
+			);
+			name = puzzlesanTests;
+			productName = puzzlesanTests;
+			productReference = EE8241E620C0D41D0065C6BE /* puzzlesanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE8241F020C0D41D0065C6BE /* puzzlesanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE82420020C0D41D0065C6BE /* Build configuration list for PBXNativeTarget "puzzlesanUITests" */;
+			buildPhases = (
+				EE8241ED20C0D41D0065C6BE /* Sources */,
+				EE8241EE20C0D41D0065C6BE /* Frameworks */,
+				EE8241EF20C0D41D0065C6BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE8241F320C0D41D0065C6BE /* PBXTargetDependency */,
+			);
+			name = puzzlesanUITests;
+			productName = puzzlesanUITests;
+			productReference = EE8241F120C0D41D0065C6BE /* puzzlesanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE8241CA20C0D41C0065C6BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Maho Misumi";
+				TargetAttributes = {
+					EE8241D120C0D41C0065C6BE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EE8241E520C0D41D0065C6BE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE8241D120C0D41C0065C6BE;
+					};
+					EE8241F020C0D41D0065C6BE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE8241D120C0D41C0065C6BE;
+					};
+				};
+			};
+			buildConfigurationList = EE8241CD20C0D41C0065C6BE /* Build configuration list for PBXProject "puzzlesan" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE8241C920C0D41C0065C6BE;
+			productRefGroup = EE8241D320C0D41C0065C6BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE8241D120C0D41C0065C6BE /* puzzlesan */,
+				EE8241E520C0D41D0065C6BE /* puzzlesanTests */,
+				EE8241F020C0D41D0065C6BE /* puzzlesanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE8241D020C0D41C0065C6BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8241E020C0D41C0065C6BE /* LaunchScreen.storyboard in Resources */,
+				EE8241DD20C0D41C0065C6BE /* Assets.xcassets in Resources */,
+				EE8241DB20C0D41C0065C6BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8241E420C0D41D0065C6BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8241EF20C0D41D0065C6BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE8241CE20C0D41C0065C6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8241D820C0D41C0065C6BE /* ViewController.swift in Sources */,
+				EE8241D620C0D41C0065C6BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8241E220C0D41D0065C6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8241EB20C0D41D0065C6BE /* puzzlesanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8241ED20C0D41D0065C6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8241F620C0D41D0065C6BE /* puzzlesanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE8241E820C0D41D0065C6BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE8241D120C0D41C0065C6BE /* puzzlesan */;
+			targetProxy = EE8241E720C0D41D0065C6BE /* PBXContainerItemProxy */;
+		};
+		EE8241F320C0D41D0065C6BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE8241D120C0D41C0065C6BE /* puzzlesan */;
+			targetProxy = EE8241F220C0D41D0065C6BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE8241D920C0D41C0065C6BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8241DA20C0D41C0065C6BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE8241DE20C0D41C0065C6BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8241DF20C0D41C0065C6BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE8241F820C0D41D0065C6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE8241F920C0D41D0065C6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE8241FB20C0D41D0065C6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = puzzlesan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maho.com.puzzlesan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE8241FC20C0D41D0065C6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = puzzlesan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maho.com.puzzlesan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE8241FE20C0D41D0065C6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = puzzlesanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maho.com.puzzlesanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/puzzlesan.app/puzzlesan";
+			};
+			name = Debug;
+		};
+		EE8241FF20C0D41D0065C6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = puzzlesanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maho.com.puzzlesanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/puzzlesan.app/puzzlesan";
+			};
+			name = Release;
+		};
+		EE82420120C0D41D0065C6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = puzzlesanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maho.com.puzzlesanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = puzzlesan;
+			};
+			name = Debug;
+		};
+		EE82420220C0D41D0065C6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = puzzlesanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maho.com.puzzlesanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = puzzlesan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE8241CD20C0D41C0065C6BE /* Build configuration list for PBXProject "puzzlesan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8241F820C0D41D0065C6BE /* Debug */,
+				EE8241F920C0D41D0065C6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8241FA20C0D41D0065C6BE /* Build configuration list for PBXNativeTarget "puzzlesan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8241FB20C0D41D0065C6BE /* Debug */,
+				EE8241FC20C0D41D0065C6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8241FD20C0D41D0065C6BE /* Build configuration list for PBXNativeTarget "puzzlesanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8241FE20C0D41D0065C6BE /* Debug */,
+				EE8241FF20C0D41D0065C6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE82420020C0D41D0065C6BE /* Build configuration list for PBXNativeTarget "puzzlesanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE82420120C0D41D0065C6BE /* Debug */,
+				EE82420220C0D41D0065C6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE8241CA20C0D41C0065C6BE /* Project object */;
+}
